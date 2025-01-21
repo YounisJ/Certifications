@@ -2,14 +2,14 @@
 Here is outline to for prepation of CAP Exam
 
 
+<details>
+  <summary>Click to expand</summary>
+  Hidden content here.
+</details>
+
 1. Input Validation Mechanisms
-   <details>
-      <summary>
    - Blacklisting
    - Whitelisting
-      </summary>
-   </details>
-   
 3. Cross-Site Scripting
 4. SQL Injection
 5. XML External Entity attack
