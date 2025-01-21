@@ -70,11 +70,32 @@ b. **Semantic Validation** (Meaning Check)
 **Preventions:**
 - Input Validation
 - CSP (Content Security Policy): CSP is a security feature that allows a website to specify which sources of content are allowed to be loaded by the browser.
-- 
+- Escaping user input
+- Encoding user input
+- Disable HTML in user input
 </details>
 
 
-4. SQL Injection
+<details>
+<summary><b>4. SQL Injection</b></summary>
+  SQL injection is a type of attack that takes advantage of the structure of SQL to inject malicious code into a web application. 
+  **Catagories:**
+  
+- **Classic SQLI**: Classic SQL injection involves manipulating the syntax of an SQL query to gain access to sensitive data. This typically involves entering malicious code into an input field or URL.
+- **Blind SQLI**: Blind SQL injection is a type of attack that is used when the attacker does not have direct access to the database. In this case, the attacker will use techniques such as Boolean-based and time-based SQL injection to gain access to the database.
+- **Second-order SQLI**: Second-order SQL injection is a type of attack that occurs when an attacker is able to inject malicious code into a web application and it is then executed when the application is used by another user.
+
+  **Preventions:**
+  - Use parameterized queries
+  - Use prepared statements
+  - Input validation
+  - Implement Whitelisting
+  - Encrypt Sensitive data
+  - Use least privilige escalation
+  - Monitor system logs
+  - Use WAF's
+</details>
+
 5. XML External Entity attack
 6. Cross-Site Request Forgery
 7. Encoding, Encryption, and Hashing
