@@ -79,7 +79,8 @@ b. **Semantic Validation** (Meaning Check)
 <details>
 <summary><b>4. SQL Injection</b></summary>
   SQL injection is a type of attack that takes advantage of the structure of SQL to inject malicious code into a web application. 
-  **Catagories:**
+  
+**Catagories:**
   
 - **Classic SQLI**: Classic SQL injection involves manipulating the syntax of an SQL query to gain access to sensitive data. This typically involves entering malicious code into an input field or URL.
 - **Blind SQLI**: Blind SQL injection is a type of attack that is used when the attacker does not have direct access to the database. In this case, the attacker will use techniques such as Boolean-based and time-based SQL injection to gain access to the database.
@@ -96,7 +97,26 @@ b. **Semantic Validation** (Meaning Check)
   - Use WAF's
 </details>
 
-5. XML External Entity attack
+<details>
+  <summary><b>5. XML External Entity attack</b></summary>
+  XML External Entity (XXE) attack is a type of attack that exploits a vulnerability in an XML parser that is used to process XML documents. This vulnerability can be used by attackers to gain access to sensitive data within an XML file, or even to gain access to a network system.
+  
+
+**Types:**
+
+- XML Injection: The document contains malicious code which can be used to steal data from the XML document or to gain access to the network system.
+
+- XML Bombing: The document contains malicious code which can be used to cause a denial of service (DoS) attack or to gain access to the network system.
+
+- XXE Injection: The document contains malicious code which can be used to gain access to the network system or to execute arbitrary code on the system.
+
+**Preventions:**
+- External source validated and filtered
+- Use Latest version of xml parser
+- Use input validation
+</details>
+
+
 6. Cross-Site Request Forgery
 7. Encoding, Encryption, and Hashing
 8. Authentication related Vulnerabilities
