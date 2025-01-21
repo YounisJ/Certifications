@@ -3,34 +3,39 @@ Here is outline to for prepation of CAP Exam
 
 
 1. Input Validation Mechanisms
+   <details>
+      <summary>
    - Blacklisting
    - Whitelisting
-2. Cross-Site Scripting
-3. SQL Injection
-4. XML External Entity attack
-5. Cross-Site Request Forgery
-6. Encoding, Encryption, and Hashing
-7. Authentication related Vulnerabilities
+      </summary>
+   </details>
+   
+3. Cross-Site Scripting
+4. SQL Injection
+5. XML External Entity attack
+6. Cross-Site Request Forgery
+7. Encoding, Encryption, and Hashing
+8. Authentication related Vulnerabilities
     - Brute force Attacks
     - Password Storage and Password Policy
-8. Understanding of OWASP Top 10 Vulnerabilities
-9. Security Best Practices and Hardening Mechanisms.
+9. Understanding of OWASP Top 10 Vulnerabilities
+10. Security Best Practices and Hardening Mechanisms.
     - Same Origin Policy
     - Security Headers
-10. TLS security
+11. TLS security
     - TLS Certificate Misconfiguration
     - Symmetric and Asymmetric Ciphers
-11. Server-Side Request Forgery
-12. Authorization and Session Management related flaws
+12. Server-Side Request Forgery
+13. Authorization and Session Management related flaws
     - Insecure Direct Object Reference (IDOR)
     - Privilege Escalation
     - Parameter Manipulation attacks
     - Securing Cookies
-13. Insecure File Uploads
-14. Code Injection Vulnerabilities
-15. Business Logic Flaws
-16. Directory Traversal Vulnerabilities
-17. Security Misconfigurations.
-18. Information Disclosure.
-19. Vulnerable and Outdated Components.
-20. Common Supply Chain Attacks and Prevention Methods.
+14. Insecure File Uploads
+15. Code Injection Vulnerabilities
+16. Business Logic Flaws
+17. Directory Traversal Vulnerabilities
+18. Security Misconfigurations.
+19. Information Disclosure.
+20. Vulnerable and Outdated Components.
+21. Common Supply Chain Attacks and Prevention Methods.
