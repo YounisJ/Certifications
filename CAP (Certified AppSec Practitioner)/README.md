@@ -116,8 +116,23 @@ b. **Semantic Validation** (Meaning Check)
 - Use input validation
 </details>
 
+<details>
+  <summary><b>6. Cross-Site Request Forgery</b></summary>
+Cross-Site Request Forgery (CSRF) is a type of attack which is carried out when an attacker tricks a user into sending a malicious request to a target website. 
 
-6. Cross-Site Request Forgery
+The malicious request can be a GET or POST request, and the attacker can use it to access and modify sensitive user data, or to execute unwanted commands on a vulnerable website
+
+- Example of a CSRF attack is an attacker manipulating a user into sending a GET request to a vulnerable website. The GET request could contain a malicious command, such as “delete all users”, which the attacker can then use to delete all users from the website without the user’s knowledge.
+
+**Preventions:**
+- Use anti-CSRF token
+- Restrict access
+- Use Captcha
+- Use Https accross all pages
+- Use 2fa
+</details>
+
+
 7. Encoding, Encryption, and Hashing
 8. Authentication related Vulnerabilities
     - Brute force Attacks
