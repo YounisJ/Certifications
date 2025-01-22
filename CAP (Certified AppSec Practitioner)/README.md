@@ -133,28 +133,53 @@ The malicious request can be a GET or POST request, and the attacker can use it 
 </details>
 
 
-7. Encoding, Encryption, and Hashing
-8. Authentication related Vulnerabilities
-    - Brute force Attacks
-    - Password Storage and Password Policy
-9. Understanding of OWASP Top 10 Vulnerabilities
-10. Security Best Practices and Hardening Mechanisms.
+<details>
+  <summary><b>7. Encoding, Encryption, and Hashing</b></summary>
+Encoding, encryption, and hashing are three distinct processes used to protect digital information.
+
+**Encoding** is a way of representing data in a different format, typically for the purpose of obfuscation or to compress the data. It does not provide security, but can be used to help make it more difficult for unauthorized persons to access the data.
+
+- URL Encoding
+- Base64 Encoding
+- ASCII Encoding
+- UTF-8 Encoding
+- Hexadecimal Encoding
+
+**Encryption** is a process of transforming data using an algorithm and a key in order to make the data unreadable without the key. It is the most commonly used method to protect data in transit and at rest.
+
+- Symmetric Encryption: Symmetric encryption is a type of encryption where the same key is used for both encryption and decryption
+- Asymmetric Encryption: Asymmetric encryption is a type of encryption where two different keys are used, one for encryption and one for decryption
+
+**Hashing** is the process of generating a fixed-length output from a string of data using a deterministic algorithm. It is used to verify the integrity of data and to securely store passwords.
+
+
+- **MD5**: Generates a 128-bit hash value.
+- **SHA-1**: Generates a 160-bit hash value.
+- **SHA-2**: Generates a 224-bit, 256-bit, 384-bit, or 512-bit hash value.
+- **SHA-3**: Generates a 224-bit, 256-bit, 384-bit, or 512-bit hash value.
+- **BCrypt**: Generates a variable-length hash value based on a salt and user-supplied password.
+  
+</details>
+
+
+8. Understanding of OWASP Top 10 Vulnerabilities
+9. Security Best Practices and Hardening Mechanisms.
     - Same Origin Policy
     - Security Headers
-11. TLS security
+10. TLS security
     - TLS Certificate Misconfiguration
     - Symmetric and Asymmetric Ciphers
-12. Server-Side Request Forgery
-13. Authorization and Session Management related flaws
+11. Server-Side Request Forgery
+12. Authorization and Session Management related flaws
     - Insecure Direct Object Reference (IDOR)
     - Privilege Escalation
     - Parameter Manipulation attacks
     - Securing Cookies
-14. Insecure File Uploads
-15. Code Injection Vulnerabilities
-16. Business Logic Flaws
-17. Directory Traversal Vulnerabilities
-18. Security Misconfigurations.
-19. Information Disclosure.
-20. Vulnerable and Outdated Components.
-21. Common Supply Chain Attacks and Prevention Methods.
+13. Insecure File Uploads
+14. Code Injection Vulnerabilities
+15. Business Logic Flaws
+16. Directory Traversal Vulnerabilities
+17. Security Misconfigurations.
+18. Information Disclosure.
+19. Vulnerable and Outdated Components.
+20. Common Supply Chain Attacks and Prevention Methods.
