@@ -7,7 +7,7 @@
   Input validation is something that is used to limit the user input for attaining just the required functionality through input testing. Since some of the vulnerabilities like XSS, SQL Injection, SSTI, etc. are possible due to lack of implementation within input validation
 
 
-a. **Syntactical Validation** (Format Check)
+a. **Syntactical Validation** (Format Check):
    - What it checks: The structure or format of the data.
    Example in plain terms:
    - If someone enters a date as 2024-15-50, syntactical validation will check if it follows the correct format YYYY-MM-DD (but not whether it's a real date).
