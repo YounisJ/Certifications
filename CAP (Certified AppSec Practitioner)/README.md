@@ -220,9 +220,12 @@ Server-side request forgery (also termed as SSRF) is a web security flaw that al
 
 </details>
 
-9. Security Best Practices and Hardening Mechanisms.
-    - Same Origin Policy
-    - Security Headers
+<details>
+  <summary><b>9. Security Best Practices and Hardening Mechanisms.</b></summary>
+    - Same Origin Policy: 
+    - Security Headers: 
+
+</details>
 10. TLS security
     - TLS Certificate Misconfiguration
     - Symmetric and Asymmetric Ciphers
