@@ -11,7 +11,7 @@ a. **Syntactical Validation** (Format Check):
    - What it checks: The structure or format of the data.
    Example in plain terms:
    - If someone enters a date as 2024-15-50, syntactical validation will check if it follows the correct format YYYY-MM-DD (but not whether it's a real date).
-b. **Semantic Validation** (Meaning Check)
+b. **Semantic Validation** (Meaning Check):
    - What it checks: The logic or meaning of the data.
      Example in plain terms:
    - If someone enters a date as 2024-02-30, semantic validation will catch that February never has 30 days.
