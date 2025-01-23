@@ -27,7 +27,7 @@ b. **Semantic Validation** (Meaning Check):
 - **Blacklisting**:
     - Scanning and Rejecting input that is know to be bad (Given data doesn't contains the bad content)
     - Example: ‘|%| — |;|/\|\\\||\[|@|xp And <SCRIPT>
-- **Whitelisting**
+- **Whitelisting**:
     - Scanning and accepting input that is know to be good ()
     - whitelist validation is the more powerful of the two input validation approaches
     - Example: Length, size, format and type etc
