@@ -24,7 +24,7 @@ b. **Semantic Validation** (Meaning Check):
 
 
 
-- **Blacklisting**
+- **Blacklisting**:
     - Scanning and Rejecting input that is know to be bad (Given data doesn't contains the bad content)
     - Example: ‘|%| — |;|/\|\\\||\[|@|xp And <SCRIPT>
 - **Whitelisting**
