@@ -195,25 +195,20 @@ This newest OWASP Top 10 revision talks about risks related to design and archit
 This category covers a brand range of potential vulnerabilities including insecure default configurations, open ports, incomplete configurations, and misconfigured HTTP headers, using insecure default usernames and passwords, etc.
 
 **VULNERABLE AND OUTDATED COMPONENTS**
-
 This refers to known issues where vulnerabilities exist because developers either do not know the versions of components used including those of nested dependencies, or are not aware that the software used is already unsupported or out of date.
 
 e.g. Log4j2 Vulnerability
 
 **IDENTIFICATION AND AUTHENTICATION FAILURES**
-
 Previously known as “Broken Authentication”, this category covers weaknesses in authentication and session management in web applications. The resulting vulnerabilities allow attackers to gain unauthorized access to accounts and/or data.
 
 **SOFTWARE AND DATA INTEGRITY FAILURES**
-
 For software, data integrity failures are becoming increasingly relevant as sensitive information is increasingly stored in databases, where it is at risk of tampering security.
 
 **SECURITY LOGGING AND MONITORING FAILURES**
-
 Previously categorized as “Insufficient Logging and Monitoring”, Security Logging and Monitoring Failures moved one place up from #10 this year. Logging and monitoring are essential components in ensuring that any suspicious activity can be detected close to real-time, or diagnosed after the fact.
 
 **SERVER-SIDE REQUEST FORGERY (SSRF)**
-
 Server-side request forgery (also termed as SSRF) is a web security flaw that allows an attacker to force a server-side application to send HTTP requests to any domain the attacker chooses
 
 </details>
