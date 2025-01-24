@@ -1,7 +1,6 @@
 # CAP (Certified AppSec Practitioner)
 ## Here is outline to for prepation of CAP Exam
 
-
 <details>
   <summary><b>1. Input Validation Mechanisms:</b></summary>
   Input validation is something that is used to limit the user input for attaining just the required functionality through input testing. Since some of the vulnerabilities like XSS, SQL Injection, SSTI, etc. are possible due to lack of implementation within input validation
