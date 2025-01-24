@@ -178,8 +178,7 @@ Every year Open Web application security project publishes its top 10 list of we
 **Broken access control**
 Broken Access Control happens when access permissions are misconfigured thereby allowing attackers to access, modify or delete data, files and accounts that they should not have access to in the first place.
 
-**CRYPTOGRAPHIC FAILURES**
-
+**CRYPTOGRAPHIC FAILURES**s
 Cryptographic failures occur when sensitive data is insufficiently protected and therefore leaked or exposed to unauthorized audiences. Such failures are most common if data is transmitted or stored in clear text or using known-to-be-weak cryptographic algorithms such as MD5 or SHA-1.
 
 **INJECTION**
