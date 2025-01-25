@@ -1,4 +1,4 @@
-URL/URI/URN
+odURL/URI/URN
 - What are HTTP Headers ?
 Metadata sent along with request and response.
 - What headers do ?
@@ -7,8 +7,68 @@ Caching, auth, manage user state
 - Around 2012-2013 X pefix was used in headers like:
 X-Name, X-Frame etc
 
--Cat
-Request headers
-Response headers
-Representation headers
-Payload headers
+- Cat
+Request headers: From Client
+Response headers: From Server
+Representation headersn: Encoding, Compression
+Payload headers: data(name, email, id)
+
+- Most Common headers
+1. Accept:application/json
+   Which type of data to be accepted
+2. User-agent: Mozila
+   Which application request is comming from like Postman, Browser(which browser)
+3. Authorization: Bearer (JWT-Token)
+4. Content-type:
+Which type of content is being sent
+5. Cookies: 
+   Object
+6. Cache-Control: 3600
+    when to expire data 
+
+- CORS Headers
+Just policies, from where request can come, 
+1. Acces-control-allow-origin:
+2. Access-control-allow-credentials:
+3. Access-control-allow-method:
+
+- Security Headers
+1. Cross-origin-embedder-policy
+2. Cross-origin-opener-policy
+3. Content-security-policy
+4. X-Xss-protection
+
+- HTTP Methods
+1. GET    :  Retrieve Res
+2. Head   :  No message body(response headers only)
+3. Options:  What are available
+4. Trace  :  Loopback test (get same data )
+5. Delete :  Remove a res
+6. Put    :  Replace a res
+7. Post   :  interact with resource (mostly add)
+8. Patch  :  Change part of res
+
+- Status Code
+1xx: Informational
+2xx: Success
+3xx: Redirection
+4xx: Client error
+5xx: Server error
+
+100: Continue
+102: Proccessing
+200: Ok
+201: Created
+202: Accepted
+307: Temporary redirect
+308: Permanent redirect
+400: Bad req
+401: Unautherized
+402: Payment required
+404: Not found
+500: Internal Server error
+504: Gateway timeout
+
+
+
+
