@@ -1,0 +1,3 @@
+Q1. What is Graphql introspection?
+Q2. What SAML stands for?
+Q3. What security header can be used to prevent clickjacking attack?
