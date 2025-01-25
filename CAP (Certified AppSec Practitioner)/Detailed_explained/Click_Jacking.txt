@@ -1,1 +1,6 @@
+Clickjacking: 
+is a attack where a user is tricked into clicking on hidden web page elements by simply overlaying 
 
+Unauth action
+Phishing
+Content hijacking
