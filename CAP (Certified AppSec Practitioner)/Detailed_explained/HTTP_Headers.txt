@@ -1,0 +1,14 @@
+URL/URI/URN
+- What are HTTP Headers ?
+Metadata sent along with request and response.
+- What headers do ?
+Caching, auth, manage user state
+
+- Around 2012-2013 X pefix was used in headers like:
+X-Name, X-Frame etc
+
+-Cat
+Request headers
+Response headers
+Representation headers
+Payload headers
