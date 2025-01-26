@@ -4,3 +4,4 @@ is a attack where a user is tricked into clicking on hidden web page elements by
 Unauth action
 Phishing
 Content hijacking
+
