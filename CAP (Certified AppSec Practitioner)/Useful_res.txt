@@ -4,3 +4,12 @@
 
 
 Understanding vulnerability by doing Portswigger Lab — XSS, SQL Injection, XML External Entity Attack, CSRF, SSRF, Authorization And Session Management Related Flaws, Insecure File Uploads and Directory Traversal Vulnerabilities.
+
+
+Familiarize yourself with Encoding, Encryption and Hashing
+Familiarize yourself with Input Validation Mechanisms (Blacklisting / Whitelisting)
+Study the OWASP Top 10 Vulnerabilities, This https://tryhackme.com/r/room/owasptop10 Room may help you, you may also solve the APPRENTICE-level labs on https://portswigger.net/web-security/all-labs for each vulnerability as the exam may include screenshots of burpsuite requests, who knows?
+Study Business Logic Flaws
+Familiarize yourself with Vulnerable and Outdated Components
+Familiarize yourself with Security Best Practices and Hardening Mechanisms (Security Headers / SOP)
+Familiarize yourself with Common Supply Chain Attacks and Prevention Methods
